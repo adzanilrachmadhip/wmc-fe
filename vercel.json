@@ -1,6 +1,5 @@
 {
     "version": 2,
-      "framework": null,
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.7.1" }
     },
@@ -23,5 +22,6 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    }
+    },
+    "outputDirectory": "public"
 }
